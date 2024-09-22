@@ -8,7 +8,7 @@ class Library{
     void addBooks(String Book){
         this.books[noOfBooks] = Book;
         noOfBooks++;
-        System.out.println(Book+"Has been added");
+        System.out.println(Book+" Has been added");
     }
     void showAvailableBooks(){
         System.out.println("Available books are : ");
